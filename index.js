@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.send("Welcome to OLX!");
+  res.send("Welcome to OLX! use /get , /post , /post/edit/:id, /post/delete/:id");
 });
 
 const PORT = process.env.PORT;
